@@ -7,12 +7,12 @@ module "jx" {
 }
 
 output "cluster_name" {
-  description = "Cluster name"
+  description = "jimmy_aks_cluster"
   value       = module.jx.cluster_name
 }
 
 output "cluster_resource_group" {
-  description = "Cluster resource group"
+  description = "jimmy0924"
   value       = module.jx.cluster_resource_group
 }
 
